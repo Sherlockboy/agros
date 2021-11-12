@@ -1,0 +1,17 @@
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/propper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="vendors/bootstrap-selector/js/bootstrap-select.min.js"></script>
+<script src="vendors/wow/wow.min.js"></script>
+<script src="vendors/sckroller/jquery.parallax-scroll.js"></script>
+<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+<script src="vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="vendors/isotope/isotope-min.js"></script>
+<script src="vendors/magnify-pop/jquery.magnific-popup.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="vendors/scroll/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="vendors/multiscroll/jquery.easings.min.js"></script>
+<script src="vendors/multiscroll/multiscroll.responsiveExpand.limited.min.js"></script>
+<script src="vendors/multiscroll/jquery.multiscroll.extensions.min.js"></script>
+<script src="js/main.js"></script>
