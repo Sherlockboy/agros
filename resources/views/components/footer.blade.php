@@ -1,17 +1,14 @@
 <footer class="footer_area h_footer_dark pos_footer_area">
-    <img class="leaf_left" src="img/pos/leaf-left.png" alt="">
-    <img class="leaf_right" src="img/pos/leaf-right.png" alt="">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="f_widget dark_widget company_widget">
-                    <a href="index.html" class="f-logo"><img src="img/logo2.png" alt=""></a>
-                    <p>© 2019 SaasLand, LLC. All rights reserved. Proudly made in NY</p>
+                    <h1 class="f_700 text-white">AgroS</h1>
+                    <p>© 2021 AgroS, LLC. All rights reserved.</p>
                     <div class="f_social_icon">
+                        <a href="#" class="ti-instagram"></a>
                         <a href="#" class="ti-facebook"></a>
-                        <a href="#" class="ti-twitter-alt"></a>
-                        <a href="#" class="ti-vimeo-alt"></a>
-                        <a href="#" class="ti-pinterest"></a>
+                        <a href="#" class="ti-youtube"></a>
                     </div>
                 </div>
             </div>
@@ -57,9 +54,6 @@
             </div>
         </div>
         <div class="pos_footer_bottom justify-content-between d-flex align-items-end">
-            <img class="pos_women" src="img/pos/women.png" alt="">
-            <img src="img/pos/people.png" alt="">
-            <img class="pos_women" src="img/pos/man.png" alt="">
         </div>
     </div>
     <svg class="wave_shap" xmlns="http://www.w3.org/2000/svg">
