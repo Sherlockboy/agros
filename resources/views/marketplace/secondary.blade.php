@@ -3,7 +3,7 @@
 @section('content')
     <section>
         <img class="breadcrumb_shap" style="height: 500px; width: 100%; margin-top:85px; object-fit: cover;"
-            src="{{ asset('media/bazar.jpg') }}" alt="">
+            src="{{ asset('media/fertilizers.png') }}" alt="">
         <div class="container mt-5 mb-5">
             <div class="breadcrumb_content text-center">
                 <h1 class="f_p f_700 f_size_50 l_height50 mb_20">Fertilizers and Nutrients for Farmers</h1>
