@@ -10,4 +10,5 @@ Route::prefix('marketplace')->name('marketplace.')->group(function () {
     Route::get('/goods', [MarketplaceController::class, 'primary'])->name('primary');
     Route::get('/nutrition', [MarketplaceController::class, 'secondary'])->name('secondary');
     Route::get('/product', [MarketplaceController::class, 'product'])->name('product');
+    Route::get('/order', [MarketplaceController::class, 'order'])->name('order');
 });

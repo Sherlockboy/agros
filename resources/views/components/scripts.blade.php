@@ -15,3 +15,5 @@
 <script src="{{ asset('vendors/multiscroll/multiscroll.responsiveExpand.limited.min.js') }}"></script>
 <script src="{{ asset('vendors/multiscroll/jquery.multiscroll.extensions.min.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
+
+@yield('scripts')
