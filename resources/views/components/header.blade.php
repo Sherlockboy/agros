@@ -19,7 +19,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav pl_100 mr-auto menu">
+                <ul class="navbar-nav ml-auto mr-auto menu">
                     <li class="nav-item @if(session()->get('active_menu') == 'fms') active @endif">
                         <a class="nav-link dropdown" href="{{ route('fms') }}">
                             FMS
@@ -50,7 +50,7 @@
             <div class="alter_nav">
                 <ul class="navbar-nav search_cart menu">
                     <li class="nav-item search">
-                        <a class="nav-link search-btn" href="javascript:void(0);">
+                        <a class="nav-link search-btn m-0" href="javascript:void(0);">
                             <i class="ti-search"></i>
                         </a>
                     </li>
