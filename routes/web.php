@@ -1,7 +1,12 @@
 <?php
 
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MarketplaceController;
+use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [HomeController::class, 'home'])->name('home');
-Route::get('/fms', [HomeController::class, 'fms'])->name('fms');
+Route::get('/', [PagesController::class, 'home'])->name('home');
+Route::get('/fms', [PagesController::class, 'fms'])->name('fms');
+Route::prefix('marketplace')->name('marketplace.')->group(function () {
+    Route::get('/goods', [MarketplaceController::class, 'primary'])->name('primary');
+    Route::get('/nutrition', [MarketplaceController::class, 'secondary'])->name('secondary');
+});
