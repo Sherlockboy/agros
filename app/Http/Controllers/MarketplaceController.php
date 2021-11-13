@@ -17,4 +17,11 @@ class MarketplaceController extends Controller
 
         return view('marketplace.secondary');
     }
+
+    public function product()
+    {
+        session()->put('active_menu', 'marketplace');
+
+        return view('marketplace.product');
+    }
 }

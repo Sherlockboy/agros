@@ -37,8 +37,8 @@
                                     href="{{ route('marketplace.primary') }}">Goods Market</a></li>
                             <li class="nav-item"><a class="nav-link"
                                     href="{{ route('marketplace.secondary') }}">Supplements Market</a></li>
-                            <li class="nav-item"><a class="nav-link" href="price.html">Delivery &
-                                    Logistics</a></li>
+                            <li class="nav-item"><a class="nav-link"
+                                    href="{{ route('marketplace.product') }}">View product</a></li>
                         </ul>
                     </li>
                     <li class="nav-item @if (session()->get('active_menu') == 'renting') active @endif">
