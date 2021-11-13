@@ -20,27 +20,27 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav pl_100 mr-auto menu">
-                    <li class="nav-item active">
-                        <a class="nav-link dropdown" href="#">
+                    <li class="nav-item @if(session()->get('active_menu') == 'fms') active @endif">
+                        <a class="nav-link dropdown" href="{{ route('fms') }}">
                             FMS
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item @if(session()->get('active_menu') == 'marketplace') active @endif">
                         <a class="nav-link dropdown" href="#">
                             Marketplace
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item @if(session()->get('active_menu') == 'renting') active @endif">
                         <a class="nav-link dropdown" href="#">
                             Machine Renting
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item @if(session()->get('active_menu') == 'sponsorship') active @endif">
                         <a class="nav-link dropdown" href="#">
                             Sponsorship
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item @if(session()->get('active_menu') == 'collobration') active @endif">
                         <a class="nav-link dropdown" href="#">
                             Collobration
                         </a>
