@@ -58,8 +58,10 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <a href="#" class="s_integration_item">
-                                <img src="img/new-home/kissmetrics.png" alt="">
-                                <h5>Farm Management Software</h5>
+                                <div class="icon">
+                                    <img src="img/Home-color/user.png" alt="">
+                                </div>
+                                <h5>Investment</h5>
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
@@ -76,16 +78,14 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <a href="#" class="s_integration_item">
-                                <div class="icon">
-                                    <img src="img/Home-color/user.png" alt="">
-                                </div>
-                                <h5>Sponsorship</h5>
+                                <img src="img/new-home/webhooks.png" alt="">
+                                <h5>Collobration</h5>
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <a href="#" class="s_integration_item">
-                                <img src="img/new-home/webhooks.png" alt="">
-                                <h5>Collobration</h5>
+                                <img src="img/new-home/kissmetrics.png" alt="">
+                                <h5>Farm Management Software</h5>
                             </a>
                         </div>
                     </div>
