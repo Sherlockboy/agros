@@ -51,7 +51,7 @@
                         </ul>
                     </li>
                     <li class="nav-item @if (session()->get('active_menu') == 'renting') active @endif">
-                        <a class="nav-link dropdown" href="#">
+                        <a class="nav-link dropdown" href="{{ route('tech-renting') }}">
                             Tech Renting
                         </a>
                     </li>

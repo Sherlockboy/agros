@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PagesController::class, 'home'])->name('home');
 Route::get('/fms', [PagesController::class, 'fms'])->name('fms');
+Route::get('/tech-renting', [PagesController::class, 'techRenting'])->name('tech-renting');
 
 Route::prefix('marketplace')->name('marketplace.')->group(function () {
     Route::get('/goods', [MarketplaceController::class, 'primary'])->name('primary');

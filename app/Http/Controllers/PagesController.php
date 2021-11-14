@@ -17,4 +17,11 @@ class PagesController extends Controller
 
         return view('pages.fms');
     }
+
+    public function techRenting()
+    {
+        session()->put('active_menu', 'renting');
+
+        return view('pages.tech-renting');
+    }
 }
