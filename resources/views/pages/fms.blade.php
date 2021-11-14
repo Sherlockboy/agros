@@ -18,7 +18,7 @@
                     <div class=" intro_content">
                         <h1>Cloud ERP Software for your Farm</h1>
                         <p>A simple and powerful erp software for Manufacturing, Distribution and Services.</p>
-                        <a href="#" class="er_btn er_btn_two mb-5">Try for Free</a>
+                        <a href="https://agros-admin.herokuapp.com/" class="er_btn er_btn_two mb-5">Try or Software</a>
                     </div>
                 </div>
             </div>
