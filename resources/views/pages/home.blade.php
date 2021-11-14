@@ -6,7 +6,8 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 text-center">
-                        <h2 class="f_p f_size_40 l_height60 wow fadeInUp" data-wow-delay="0.3s">Solid. Simple.<br>Built for the
+                        <h2 class="f_p f_size_40 l_height60 wow fadeInUp" data-wow-delay="0.3s">Solid. Simple.<br>Built for
+                            the
                             <span class="f_700">farm</span>
                         </h2>
                         <p class="f_size_18 l_height30 wow fadeInUp" data-wow-delay="0.5s">Agros manages all the phases of
@@ -57,7 +58,7 @@
                 <div class="col-lg-9 col-md-10 col-sm-12">
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-6">
-                            <a href="#" class="s_integration_item">
+                            <a href="{{ route('investment.index') }}" class="s_integration_item">
                                 <div class="icon">
                                     <img src="img/Home-color/user.png" alt="">
                                 </div>
@@ -65,7 +66,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
-                            <a href="#" class="s_integration_item">
+                            <a href="{{ route('marketplace.primary') }}" class="s_integration_item">
                                 <img src="img/new-home/metorik.png" alt="">
                                 <h5>Marketplace</h5>
                             </a>
@@ -73,19 +74,19 @@
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <a href="#" class="s_integration_item">
                                 <img src="img/new-home/nicereply-1.png" alt="">
-                                <h5>Machine Renting</h5>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <a href="#" class="s_integration_item">
-                                <img src="img/new-home/webhooks.png" alt="">
-                                <h5>Collobration</h5>
+                                <h5>Tech Renting</h5>
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <a href="#" class="s_integration_item">
                                 <img src="img/new-home/kissmetrics.png" alt="">
                                 <h5>Farm Management Software</h5>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <a href="#" class="s_integration_item">
+                                <img src="img/new-home/webhooks.png" alt="">
+                                <h5>Collobration</h5>
                             </a>
                         </div>
                     </div>

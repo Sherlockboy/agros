@@ -52,17 +52,17 @@
                     </li>
                     <li class="nav-item @if (session()->get('active_menu') == 'renting') active @endif">
                         <a class="nav-link dropdown" href="#">
-                            Machine Renting
-                        </a>
-                    </li>
-                    <li class="nav-item @if (session()->get('active_menu') == 'collobration') active @endif">
-                        <a class="nav-link dropdown" href="#">
-                            Collobration
+                            Tech Renting
                         </a>
                     </li>
                     <li class="nav-item @if (session()->get('active_menu') == 'fms') active @endif">
                         <a class="nav-link dropdown" href="{{ route('fms') }}">
                             FMS
+                        </a>
+                    </li>
+                    <li class="nav-item @if (session()->get('active_menu') == 'collobration') active @endif">
+                        <a class="nav-link dropdown" href="#">
+                            Collobration
                         </a>
                     </li>
                 </ul>
