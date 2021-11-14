@@ -3,12 +3,12 @@
 @section('content')
     <section class="erp_banner_area_two">
         <ul class="list-unstyled cloud_animation">
-            <li><img src="img/erp-home/cloud_01.png" alt=""></li>
-            <li><img src="img/erp-home/cloud_02.png" alt=""></li>
-            <li><img src="img/erp-home/cloud_03.png" alt=""></li>
-            <li><img src="img/erp-home/cloud_04.png" alt=""></li>
-            <li><img src="img/erp-home/cloud_05.png" alt=""></li>
-            <li><img src="img/erp-home/cloud_06.png" alt=""></li>
+            <li><img src="{{ asset('img/erp-home/cloud_01.png') }}" alt=""></li>
+            <li><img src="{{ asset('img/erp-home/cloud_02.png') }}" alt=""></li>
+            <li><img src="{{ asset('img/erp-home/cloud_03.png') }}" alt=""></li>
+            <li><img src="{{ asset('img/erp-home/cloud_04.png') }}" alt=""></li>
+            <li><img src="{{ asset('img/erp-home/cloud_05.png') }}" alt=""></li>
+            <li><img src="{{ asset('img/erp-home/cloud_06.png') }}" alt=""></li>
         </ul>
         <div class="erp_shap"></div>
         <div class="erp_shap_two" style="background: url(./img/erp-home/banner_shap.png) no-repeat scroll top left;"></div>
