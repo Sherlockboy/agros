@@ -1,4 +1,4 @@
-<header class="header_area @if (session()->get('active_menu') == 'marketplace') bg-white @endif">
+<header class="header_area @if (session()->get('active_menu') == 'marketplace' || session()->get('active_menu') == 'investment') bg-white @endif">
     <nav class="navbar navbar-expand-lg menu_one support_menu">
         <div class="container">
             <a href="{{ route('home') }}">
@@ -22,10 +22,17 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto mr-auto menu">
-                    <li class="nav-item @if (session()->get('active_menu') == 'investment') active @endif">
-                        <a class="nav-link dropdown" href="#">
+                    <li class="dropdown submenu nav-item @if (session()->get('active_menu') == 'investment') active @endif">
+                        <a title="Pages" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
+                            aria-haspopup="true" aria-expanded="false" href="#">
                             Investment
                         </a>
+                        <ul role="menu" class=" dropdown-menu">
+                            <li class="nav-item"><a class="nav-link"
+                                    href="{{ route('investment.index') }}">Farmers</a></li>
+                            <li class="nav-item"><a class="nav-link"
+                                    href="{{ route('investment.show') }}">Show-room</a></li>
+                        </ul>
                     </li>
                     <li class="dropdown submenu nav-item @if (session()->get('active_menu') == 'marketplace') active @endif">
                         <a title="Pages" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
